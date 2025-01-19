@@ -43,6 +43,13 @@ Make es una herramienta clásica utilizada para automatizar la construcción de 
 ```bash  
 conda install -c conda-forge make  
 ```
+
+
+### Instalar GIT
+```bash  
+conda install -c conda-forge git  
+```
+
 Después de instalar las herramientas, verifica que todo esté correctamente configurado:
 ```bash  
 
