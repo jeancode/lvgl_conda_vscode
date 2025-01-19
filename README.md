@@ -17,8 +17,8 @@ Estas herramientas son esenciales para compilar y construir proyectos en entorno
 Antes de instalar los paquetes, es recomendable crear un entorno específico para mantener las herramientas aisladas.  
 
 ```bash  
-conda create --name cplusEnv python=3.9
-conda activate cplusEnv  
+conda create --name lvglEnv python=3.9
+conda activate lvglEnv  
 ```
 
 ### Instalar m2w64-toolchain
