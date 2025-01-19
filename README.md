@@ -67,6 +67,6 @@ make --version      # Para Make
 mkdir build
 cd build
 cmake -G "MinGW Makefiles" ..
-make
+make or make -j 
 ```  
 
