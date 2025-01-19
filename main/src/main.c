@@ -15,7 +15,7 @@
 #include "lvgl/lvgl.h"
 #include "lvgl/examples/lv_examples.h"
 #include "lvgl/demos/lv_demos.h"
-#include "glob.h"
+//#include "glob.h" libreria escluida para windows use poxi
 
 /*********************
  *      DEFINES
