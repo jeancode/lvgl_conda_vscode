@@ -1,5 +1,5 @@
 {
-    "name": "Simulator project for LVGL embedded GUI Library",
+    "name": "Simulator project for LVGL embedded GUI Express Modifiel",
     "maintainer": "LVGL",
     "hostOperatingsystem": [
         "Windows"
@@ -10,8 +10,8 @@
     ],
     "description": "LVGL está escrito principalmente para microcontroladores y sistemas embebidos, sin embargo, también puedes ejecutar la biblioteca en tu PC sin ningún hardware embebido. El código escrito en la PC se puede copiar simplemente cuando estás utilizando un sistema embebido. El proyecto puede utilizar SDL, pero se puede reemplazar fácilmente por cualquier otro controlador LVGL integrado.",
     "shortDescription": "Proyecto basado en VSCode para ejecutar LVGL en PC.",
-    "urlToClone": "https://github.com/lvgl/lv_port_pc_vscode",
-    "logos": ["https://raw.githubusercontent.com/lvgl/project-creator/master/meta/images/vscode/logo.svg"],
+    "urlToClone": "https://github.com/jeancode/lvgl_conda_vscode",
+    "logos": [""],
     "branches": [
         "release/v9.2"
     ],

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\doyer\Documentos\GitHub\lvgl_conda_vscode\main\src\main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\doyer\Documentos\GitHub\lvgl_conda_vscode\main\src\mouse_cursor_icon.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\doyer\Documentos\GitHub\lvgl_conda_vscode\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{FD162833-DBA1-36FB-8D83-B1A3AACFDB77}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

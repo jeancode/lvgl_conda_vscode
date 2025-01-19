@@ -1,0 +1,10 @@
+C:/Users/doyer/Documentos/GitHub/lvgl_conda_vscode/build/CMakeFiles/main.dir
+C:/Users/doyer/Documentos/GitHub/lvgl_conda_vscode/build/CMakeFiles/run.dir
+C:/Users/doyer/Documentos/GitHub/lvgl_conda_vscode/build/CMakeFiles/INSTALL.dir
+C:/Users/doyer/Documentos/GitHub/lvgl_conda_vscode/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/doyer/Documentos/GitHub/lvgl_conda_vscode/build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/doyer/Documentos/GitHub/lvgl_conda_vscode/build/lvgl/CMakeFiles/lvgl.dir
+C:/Users/doyer/Documentos/GitHub/lvgl_conda_vscode/build/lvgl/CMakeFiles/lvgl_thorvg.dir
+C:/Users/doyer/Documentos/GitHub/lvgl_conda_vscode/build/lvgl/CMakeFiles/lvgl_examples.dir
+C:/Users/doyer/Documentos/GitHub/lvgl_conda_vscode/build/lvgl/CMakeFiles/lvgl_demos.dir
+C:/Users/doyer/Documentos/GitHub/lvgl_conda_vscode/build/lvgl/CMakeFiles/INSTALL.dir
