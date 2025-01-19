@@ -34,7 +34,9 @@ conda install -c conda-forge cmake
 ### Instalar SDL (Simple DirectMedia Layer)
 SDL es una biblioteca de desarrollo multimedia que proporciona acceso a gráficos, audio y otros periféricos.
 ```bash  
-conda install -c conda-forge sdl  
+conda install -c conda-forge sdl
+conda install -c conda-forge sdl2
+conda install -c conda-forge sdl2_image sdl2_ttf sdl2_mixer
 ```
 Make es una herramienta clásica utilizada para automatizar la construcción de programas a partir de código fuente.
 ### Instalar Make
