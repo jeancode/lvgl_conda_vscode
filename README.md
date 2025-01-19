@@ -57,7 +57,7 @@ make --version      # Para Make
 ```bash
 mkdir build
 cd build
-cmake ...  or cmake -G "MinGW Makefiles" ..
+cmake -G "MinGW Makefiles" ..
 make
 ```  
 
