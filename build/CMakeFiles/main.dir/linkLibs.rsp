@@ -1,0 +1,1 @@
+ lib/liblvgl.a lib/liblvgl_examples.a lib/liblvgl_demos.a lib/liblvgl_thorvg.a C:/Users/doyer/miniconda3/Library/lib/SDL2main.lib C:/Users/doyer/miniconda3/Library/lib/SDL2.lib -lm -lpthread lib/liblvgl.a -lshell32 -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 

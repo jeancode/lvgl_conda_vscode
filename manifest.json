@@ -1,0 +1,67 @@
+{
+    "name": "Simulator project for LVGL embedded GUI Library",
+    "maintainer": "LVGL",
+    "hostOperatingsystem": [
+        "Windows"
+    ],
+    "environment": [
+        "VSCode",
+        "SDL"
+    ],
+    "description": "LVGL está escrito principalmente para microcontroladores y sistemas embebidos, sin embargo, también puedes ejecutar la biblioteca en tu PC sin ningún hardware embebido. El código escrito en la PC se puede copiar simplemente cuando estás utilizando un sistema embebido. El proyecto puede utilizar SDL, pero se puede reemplazar fácilmente por cualquier otro controlador LVGL integrado.",
+    "shortDescription": "Proyecto basado en VSCode para ejecutar LVGL en PC.",
+    "urlToClone": "https://github.com/lvgl/lv_port_pc_vscode",
+    "logos": ["https://raw.githubusercontent.com/lvgl/project-creator/master/meta/images/vscode/logo.svg"],
+    "branches": [
+        "release/v9.2"
+    ],
+    "settings": [
+        {
+            "type": "dropdown",
+            "label": "Profundidad de Color",
+            "options": [
+                {
+                    "name": "16 (RGB565)",
+                    "value": "16"
+                },
+                {
+                    "name": "24 (RGB565)",
+                    "value": "24"
+                },
+                {
+                    "name": "32 (RGB565)",
+                    "value": "32"
+                }
+            ],
+            "actions": [
+                {
+                    "toReplace": "#define LV_COLOR_DEPTH \\d+",
+                    "newContent": "#define LV_COLOR_DEPTH {value}",
+                    "filePath": "lv_conf.h"
+                }
+            ]
+        },
+        {
+            "type": "dropdown",
+            "label": "Mostrar monitor de rendimiento",
+            "options": [
+                {
+                    "name": "Sí",
+                    "value": "1",
+                    "default": "true"
+                },
+                {
+                    "name": "No",
+                    "value": "0"
+                }
+            ],
+            "actions": [
+                {
+                    "toReplace": "#define LV_USE_PERF_MONITOR .*",
+                    "newContent": "#define LV_USE_PERF_MONITOR {value}",
+                    "filePath": "lv_conf.h"
+                }
+            ]
+        }
+    ]
+}

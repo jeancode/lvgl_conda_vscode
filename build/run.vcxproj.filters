@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\doyer\Escritorio\lv\lv_port_pc_vscode\build\CMakeFiles\8a0770a1478ad7d2aeb2d0ec19069e13\run.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\doyer\Escritorio\lv\lv_port_pc_vscode\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\doyer\Escritorio\lv\lv_port_pc_vscode\build\CMakeFiles\run" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{38C5EF3C-4A1A-3347-8EC9-988B6C556011}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

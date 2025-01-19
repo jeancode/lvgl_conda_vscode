@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "lv_draw.h": "c",
+        "lv_sdl_window.h": "c"
+    }
+}

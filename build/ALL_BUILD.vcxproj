@@ -1,0 +1,200 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{C41E56BF-A248-3E63-9383-DCEC3335D573}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\doyer\Escritorio\lv\lv_port_pc_vscode\main\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\doyer\Escritorio\lv\lv_port_pc_vscode\main\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\doyer\Escritorio\lv\lv_port_pc_vscode\main\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\doyer\Escritorio\lv\lv_port_pc_vscode\main\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\doyer\Escritorio\lv\lv_port_pc_vscode\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/doyer/Escritorio/lv/lv_port_pc_vscode/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/doyer/Escritorio/lv/lv_port_pc_vscode -BC:/Users/doyer/Escritorio/lv/lv_port_pc_vscode/build --check-stamp-file C:/Users/doyer/Escritorio/lv/lv_port_pc_vscode/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FeatureSummary.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake;C:\Users\doyer\Escritorio\lv\lv_port_pc_vscode\build\CMakeFiles\3.30.0-rc4\CMakeCCompiler.cmake;C:\Users\doyer\Escritorio\lv\lv_port_pc_vscode\build\CMakeFiles\3.30.0-rc4\CMakeCXXCompiler.cmake;C:\Users\doyer\Escritorio\lv\lv_port_pc_vscode\build\CMakeFiles\3.30.0-rc4\CMakeRCCompiler.cmake;C:\Users\doyer\Escritorio\lv\lv_port_pc_vscode\build\CMakeFiles\3.30.0-rc4\CMakeSystem.cmake;C:\Users\doyer\miniconda3\Library\cmake\SDL2Config.cmake;C:\Users\doyer\miniconda3\Library\cmake\SDL2ConfigVersion.cmake;C:\Users\doyer\miniconda3\Library\cmake\SDL2Targets-release.cmake;C:\Users\doyer\miniconda3\Library\cmake\SDL2Targets.cmake;C:\Users\doyer\miniconda3\Library\cmake\SDL2mainTargets-release.cmake;C:\Users\doyer\miniconda3\Library\cmake\SDL2mainTargets.cmake;C:\Users\doyer\miniconda3\Library\cmake\SDL2staticTargets-release.cmake;C:\Users\doyer\miniconda3\Library\cmake\SDL2staticTargets.cmake;C:\Users\doyer\miniconda3\Library\cmake\SDL2testTargets-release.cmake;C:\Users\doyer\miniconda3\Library\cmake\SDL2testTargets.cmake;C:\Users\doyer\miniconda3\Library\cmake\sdlfind.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\doyer\Escritorio\lv\lv_port_pc_vscode\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/doyer/Escritorio/lv/lv_port_pc_vscode/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/doyer/Escritorio/lv/lv_port_pc_vscode -BC:/Users/doyer/Escritorio/lv/lv_port_pc_vscode/build --check-stamp-file C:/Users/doyer/Escritorio/lv/lv_port_pc_vscode/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FeatureSummary.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake;C:\Users\doyer\Escritorio\lv\lv_port_pc_vscode\build\CMakeFiles\3.30.0-rc4\CMakeCCompiler.cmake;C:\Users\doyer\Escritorio\lv\lv_port_pc_vscode\build\CMakeFiles\3.30.0-rc4\CMakeCXXCompiler.cmake;C:\Users\doyer\Escritorio\lv\lv_port_pc_vscode\build\CMakeFiles\3.30.0-rc4\CMakeRCCompiler.cmake;C:\Users\doyer\Escritorio\lv\lv_port_pc_vscode\build\CMakeFiles\3.30.0-rc4\CMakeSystem.cmake;C:\Users\doyer\miniconda3\Library\cmake\SDL2Config.cmake;C:\Users\doyer\miniconda3\Library\cmake\SDL2ConfigVersion.cmake;C:\Users\doyer\miniconda3\Library\cmake\SDL2Targets-release.cmake;C:\Users\doyer\miniconda3\Library\cmake\SDL2Targets.cmake;C:\Users\doyer\miniconda3\Library\cmake\SDL2mainTargets-release.cmake;C:\Users\doyer\miniconda3\Library\cmake\SDL2mainTargets.cmake;C:\Users\doyer\miniconda3\Library\cmake\SDL2staticTargets-release.cmake;C:\Users\doyer\miniconda3\Library\cmake\SDL2staticTargets.cmake;C:\Users\doyer\miniconda3\Library\cmake\SDL2testTargets-release.cmake;C:\Users\doyer\miniconda3\Library\cmake\SDL2testTargets.cmake;C:\Users\doyer\miniconda3\Library\cmake\sdlfind.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\doyer\Escritorio\lv\lv_port_pc_vscode\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/doyer/Escritorio/lv/lv_port_pc_vscode/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/doyer/Escritorio/lv/lv_port_pc_vscode -BC:/Users/doyer/Escritorio/lv/lv_port_pc_vscode/build --check-stamp-file C:/Users/doyer/Escritorio/lv/lv_port_pc_vscode/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FeatureSummary.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake;C:\Users\doyer\Escritorio\lv\lv_port_pc_vscode\build\CMakeFiles\3.30.0-rc4\CMakeCCompiler.cmake;C:\Users\doyer\Escritorio\lv\lv_port_pc_vscode\build\CMakeFiles\3.30.0-rc4\CMakeCXXCompiler.cmake;C:\Users\doyer\Escritorio\lv\lv_port_pc_vscode\build\CMakeFiles\3.30.0-rc4\CMakeRCCompiler.cmake;C:\Users\doyer\Escritorio\lv\lv_port_pc_vscode\build\CMakeFiles\3.30.0-rc4\CMakeSystem.cmake;C:\Users\doyer\miniconda3\Library\cmake\SDL2Config.cmake;C:\Users\doyer\miniconda3\Library\cmake\SDL2ConfigVersion.cmake;C:\Users\doyer\miniconda3\Library\cmake\SDL2Targets-release.cmake;C:\Users\doyer\miniconda3\Library\cmake\SDL2Targets.cmake;C:\Users\doyer\miniconda3\Library\cmake\SDL2mainTargets-release.cmake;C:\Users\doyer\miniconda3\Library\cmake\SDL2mainTargets.cmake;C:\Users\doyer\miniconda3\Library\cmake\SDL2staticTargets-release.cmake;C:\Users\doyer\miniconda3\Library\cmake\SDL2staticTargets.cmake;C:\Users\doyer\miniconda3\Library\cmake\SDL2testTargets-release.cmake;C:\Users\doyer\miniconda3\Library\cmake\SDL2testTargets.cmake;C:\Users\doyer\miniconda3\Library\cmake\sdlfind.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\doyer\Escritorio\lv\lv_port_pc_vscode\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/doyer/Escritorio/lv/lv_port_pc_vscode/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/doyer/Escritorio/lv/lv_port_pc_vscode -BC:/Users/doyer/Escritorio/lv/lv_port_pc_vscode/build --check-stamp-file C:/Users/doyer/Escritorio/lv/lv_port_pc_vscode/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FeatureSummary.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake;C:\Users\doyer\Escritorio\lv\lv_port_pc_vscode\build\CMakeFiles\3.30.0-rc4\CMakeCCompiler.cmake;C:\Users\doyer\Escritorio\lv\lv_port_pc_vscode\build\CMakeFiles\3.30.0-rc4\CMakeCXXCompiler.cmake;C:\Users\doyer\Escritorio\lv\lv_port_pc_vscode\build\CMakeFiles\3.30.0-rc4\CMakeRCCompiler.cmake;C:\Users\doyer\Escritorio\lv\lv_port_pc_vscode\build\CMakeFiles\3.30.0-rc4\CMakeSystem.cmake;C:\Users\doyer\miniconda3\Library\cmake\SDL2Config.cmake;C:\Users\doyer\miniconda3\Library\cmake\SDL2ConfigVersion.cmake;C:\Users\doyer\miniconda3\Library\cmake\SDL2Targets-release.cmake;C:\Users\doyer\miniconda3\Library\cmake\SDL2Targets.cmake;C:\Users\doyer\miniconda3\Library\cmake\SDL2mainTargets-release.cmake;C:\Users\doyer\miniconda3\Library\cmake\SDL2mainTargets.cmake;C:\Users\doyer\miniconda3\Library\cmake\SDL2staticTargets-release.cmake;C:\Users\doyer\miniconda3\Library\cmake\SDL2staticTargets.cmake;C:\Users\doyer\miniconda3\Library\cmake\SDL2testTargets-release.cmake;C:\Users\doyer\miniconda3\Library\cmake\SDL2testTargets.cmake;C:\Users\doyer\miniconda3\Library\cmake\sdlfind.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\doyer\Escritorio\lv\lv_port_pc_vscode\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\doyer\Escritorio\lv\lv_port_pc_vscode\build\ZERO_CHECK.vcxproj">
+      <Project>{A8EAA3DA-1C32-3BB2-A457-6230AEB1B29E}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\doyer\Escritorio\lv\lv_port_pc_vscode\build\lvgl\lvgl.vcxproj">
+      <Project>{BF49334B-76E6-35C2-B10B-5D88224246C9}</Project>
+      <Name>lvgl</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\doyer\Escritorio\lv\lv_port_pc_vscode\build\lvgl\lvgl_demos.vcxproj">
+      <Project>{743B4029-CDAA-32D1-9A05-7567AF91AAAB}</Project>
+      <Name>lvgl_demos</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\doyer\Escritorio\lv\lv_port_pc_vscode\build\lvgl\lvgl_examples.vcxproj">
+      <Project>{DE4C62D2-6143-31FA-B999-29B5160E04F4}</Project>
+      <Name>lvgl_examples</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\doyer\Escritorio\lv\lv_port_pc_vscode\build\lvgl\lvgl_thorvg.vcxproj">
+      <Project>{A0079349-9BA2-3980-8AB4-700FB75CFEA8}</Project>
+      <Name>lvgl_thorvg</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\doyer\Escritorio\lv\lv_port_pc_vscode\build\main.vcxproj">
+      <Project>{06FFBBC2-415E-33B6-9DBC-56F0F7A8C221}</Project>
+      <Name>main</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
