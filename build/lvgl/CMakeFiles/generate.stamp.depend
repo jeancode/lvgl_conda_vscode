@@ -1,7 +1,0 @@
-# CMake generation dependency list for this directory.
-C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeASMInformation.cmake
-C:/Program Files/CMake/share/cmake-3.30/Modules/Compiler/MSVC-ASM.cmake
-C:/Users/doyer/Escritorio/lv/lv_port_pc_vscode/build/CMakeFiles/3.30.0-rc4/CMakeASMCompiler.cmake
-C:/Users/doyer/Escritorio/lv/lv_port_pc_vscode/lvgl/CMakeLists.txt
-C:/Users/doyer/Escritorio/lv/lv_port_pc_vscode/lvgl/env_support/cmake/custom.cmake
-C:/Users/doyer/Escritorio/lv/lv_port_pc_vscode/lvgl/lvgl.pc.in
