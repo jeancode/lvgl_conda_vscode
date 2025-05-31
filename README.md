@@ -17,8 +17,8 @@ Estas herramientas son esenciales para compilar y construir proyectos en entorno
 Antes de instalar los paquetes, es recomendable crear un entorno específico para mantener las herramientas aisladas.  
 
 ```bash
-git clone --recursive https://github.com/lvgl/lv_port_pc_vscode
-
+;;git clone --recursive https://github.com/lvgl/lv_port_pc_vscode
+git clone --recursive https://github.com/jeancode/lvgl_conda_vscode
 conda create --name lvglEnv python=3.9
 conda activate lvglEnv  
 ```
