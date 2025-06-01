@@ -77,6 +77,6 @@ cmake -G "MinGW Makefiles" ..
 make or make -j
 ```
 
-### Agregar sdl2.dll
+# Agregar sdl2.dll
 
 Debes Copiar el archivo sdl2.dll de la carpeta bin a tu proyecto bebe para que  funcione esto es en windows  si lo intentas en linuz mueres y tu  compuatadoras explota
