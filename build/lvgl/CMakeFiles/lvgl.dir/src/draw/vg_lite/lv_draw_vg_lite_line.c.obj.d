@@ -1,0 +1,31 @@
+lvgl/CMakeFiles/lvgl.dir/src/draw/vg_lite/lv_draw_vg_lite_line.c.obj: \
+ C:\Users\jean\Documents\gitLocal\lvgl_conda_vscode\lvgl\src\draw\vg_lite\lv_draw_vg_lite_line.c \
+ C:/Users/jean/Documents/gitLocal/lvgl_conda_vscode/lvgl/src/misc/lv_area_private.h \
+ C:/Users/jean/Documents/gitLocal/lvgl_conda_vscode/lvgl/src/misc/lv_area.h \
+ C:/Users/jean/Documents/gitLocal/lvgl_conda_vscode/lvgl/src/lv_conf_internal.h \
+ C:/Users/jean/Documents/gitLocal/lvgl_conda_vscode/lv_conf.h \
+ C:/Users/jean/Documents/gitLocal/lvgl_conda_vscode/lvgl/src/misc/lv_types.h \
+ C:/Users/jean/miniconda3/envs/lvglEnv/Library/mingw-w64/lib/gcc/x86_64-w64-mingw32/5.3.0/include/stdint.h \
+ C:/Users/jean/miniconda3/envs/lvglEnv/Library/mingw-w64/x86_64-w64-mingw32/include/stdint.h \
+ C:/Users/jean/miniconda3/envs/lvglEnv/Library/mingw-w64/x86_64-w64-mingw32/include/crtdefs.h \
+ C:/Users/jean/miniconda3/envs/lvglEnv/Library/mingw-w64/x86_64-w64-mingw32/include/_mingw.h \
+ C:/Users/jean/miniconda3/envs/lvglEnv/Library/mingw-w64/x86_64-w64-mingw32/include/_mingw_mac.h \
+ C:/Users/jean/miniconda3/envs/lvglEnv/Library/mingw-w64/x86_64-w64-mingw32/include/_mingw_secapi.h \
+ C:/Users/jean/miniconda3/envs/lvglEnv/Library/mingw-w64/x86_64-w64-mingw32/include/vadefs.h \
+ C:/Users/jean/miniconda3/envs/lvglEnv/Library/mingw-w64/x86_64-w64-mingw32/include/sdks/_mingw_directx.h \
+ C:/Users/jean/miniconda3/envs/lvglEnv/Library/mingw-w64/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
+ C:/Users/jean/miniconda3/envs/lvglEnv/Library/mingw-w64/lib/gcc/x86_64-w64-mingw32/5.3.0/include/stddef.h \
+ C:/Users/jean/miniconda3/envs/lvglEnv/Library/mingw-w64/x86_64-w64-mingw32/include/stddef.h \
+ C:/Users/jean/miniconda3/envs/lvglEnv/Library/mingw-w64/lib/gcc/x86_64-w64-mingw32/5.3.0/include/stdbool.h \
+ C:/Users/jean/miniconda3/envs/lvglEnv/Library/mingw-w64/x86_64-w64-mingw32/include/inttypes.h \
+ C:/Users/jean/miniconda3/envs/lvglEnv/Library/mingw-w64/x86_64-w64-mingw32/include/_mingw_print_push.h \
+ C:/Users/jean/miniconda3/envs/lvglEnv/Library/mingw-w64/x86_64-w64-mingw32/include/_mingw_print_pop.h \
+ C:/Users/jean/miniconda3/envs/lvglEnv/Library/mingw-w64/lib/gcc/x86_64-w64-mingw32/5.3.0/include-fixed/limits.h \
+ C:/Users/jean/miniconda3/envs/lvglEnv/Library/mingw-w64/lib/gcc/x86_64-w64-mingw32/5.3.0/include-fixed/syslimits.h \
+ C:/Users/jean/miniconda3/envs/lvglEnv/Library/mingw-w64/x86_64-w64-mingw32/include/limits.h \
+ C:/Users/jean/miniconda3/envs/lvglEnv/Library/mingw-w64/lib/gcc/x86_64-w64-mingw32/5.3.0/include/stdarg.h \
+ C:/Users/jean/miniconda3/envs/lvglEnv/Library/mingw-w64/x86_64-w64-mingw32/include/stdarg.h \
+ C:/Users/jean/miniconda3/envs/lvglEnv/Library/mingw-w64/x86_64-w64-mingw32/include/_mingw_stdarg.h \
+ C:/Users/jean/Documents/gitLocal/lvgl_conda_vscode/lvgl/src/misc/lv_math.h \
+ C:\Users\jean\Documents\gitLocal\lvgl_conda_vscode\lvgl\src\draw\vg_lite\lv_draw_vg_lite.h \
+ C:/Users/jean/Documents/gitLocal/lvgl_conda_vscode/lvgl/src/lv_conf_internal.h

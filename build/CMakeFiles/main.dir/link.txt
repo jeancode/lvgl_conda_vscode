@@ -1,0 +1,3 @@
+C:\Users\jean\miniconda3\envs\lvglEnv\Library\bin\cmake.exe -E rm -f CMakeFiles\main.dir/objects.a
+C:\Users\jean\miniconda3\envs\lvglEnv\Library\mingw-w64\bin\ar.exe qc CMakeFiles\main.dir/objects.a @CMakeFiles\main.dir\objects1.rsp
+C:\Users\jean\miniconda3\envs\lvglEnv\Library\mingw-w64\bin\c++.exe  -march=native -Wl,--whole-archive CMakeFiles\main.dir/objects.a -Wl,--no-whole-archive -o C:\Users\jean\Documents\gitLocal\lvgl_conda_vscode\bin\main.exe -Wl,--out-implib,C:\Users\jean\Documents\gitLocal\lvgl_conda_vscode\bin\libmain.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\main.dir\linkLibs.rsp
